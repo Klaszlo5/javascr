@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: black;
+}
+#kepes {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+#kepes img {
+    width: 200px;
+    max-width: 100%;
+}
+@media (max-width: 600px) {
+    #kepes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
